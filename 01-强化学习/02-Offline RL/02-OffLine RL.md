@@ -1,5 +1,6 @@
 1. Offline Rl 的问题：
     - 在DQN中如果出现训练数据集中未出现的情况，此时DQN所产生的Q值通常都是过估计的
+    ![Alt text](image-9.png)
 ###
 2. Policy Constraint 方法：
     - Policy Constraint 是一种离线RL方法，它主要限制策略分布（训练出的策略）和动作分布（提前收集的数据）不要差距太大。
