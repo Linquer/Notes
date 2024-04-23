@@ -12,7 +12,7 @@ def search_pdfs(root_folder, keyword):
 def main():
     root_folder = r"D:\Desktop\学习\论文"
     while True:
-        keyword = input("请输入标题关键字，输入0退出：")
+        keyword = input("请输入标题关键字, 输入0退出: ")
         keyword = keyword.strip().upper()
         if keyword == "0":
             break
