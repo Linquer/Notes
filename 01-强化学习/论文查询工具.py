@@ -7,7 +7,8 @@ def search_pdfs(root_folder, keyword):
     file_path = glob.glob(root_folder, recursive=True)
     for file_name in file_path:
         if keyword in file_name.upper():
-            print("Find : " , file_name)
+            filename_list = file_name.split("\\")
+            print(filename_list[-2] + ": " + filename_list[-1])
 
 def main():
     root_folder = r"D:\Desktop\学习\论文"
